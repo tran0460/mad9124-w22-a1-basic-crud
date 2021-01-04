@@ -55,8 +55,10 @@ The resource objects will have the following properties:
 
 ## Logistics
 
-- Clone this repo to your local development environment.
+- Fork this repo.
+- Ensure that your professor is listed as a collaborator on your copy of the repo.
+- Clone the copied repo to your local development environment.
 - Build the project on your laptop.
 - Test each route with Postman.
 - Make git commits as you complete each requirement
-- When everything is complete, push the final commit back up to GitHub and submit the GitHub repo's URL on BirghtSpace.
+- When everything is complete, push the final commit back up to GitHub and submit the GitHub repo's URL on Birghtspace.
