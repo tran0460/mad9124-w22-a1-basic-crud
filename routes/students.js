@@ -1,6 +1,6 @@
 const express = require('express');
 const { students } = require('../data/index.js')
-const { validateStudentId } = require('../middleware/middleware')
+const { validateStudentId } = require('../middleware/validateId')
 const studentRouter = express.Router();
 
 studentRouter.use('/:studentId', validateStudentId)
