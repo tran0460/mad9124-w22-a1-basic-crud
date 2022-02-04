@@ -1,6 +1,6 @@
 'use strict'
 // load dependencies
-const morgan = require('morgan')
+// const morgan = require('morgan')
 const express = require('express')
 const studentRouter = require('./routes/students')
 const courseRouter = require('./routes/courses')
@@ -9,7 +9,7 @@ const courseRouter = require('./routes/courses')
 const app = express()
 
 // configure express middleware
-app.use(morgan('tiny'))
+// app.use(morgan('tiny'))
 app.use(express.json())
 
 // define routes

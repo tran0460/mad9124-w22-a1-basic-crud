@@ -10,9 +10,10 @@
     "MAD9124",
     "W21"
   ],
-  "author": "",
+  "author": "Son Tran",
   "contributors": [
-    "Robert McKenney <mckennr@algonquincollege.com>"
+    "Robert McKenney <mckennr@algonquincollege.com>",
+    "Son Tran <tran0560@algonquinlive.com>"
   ],
   "license": "ISC",
   "private": true,
