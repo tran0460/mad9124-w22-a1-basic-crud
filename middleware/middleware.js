@@ -1,6 +1,6 @@
-let { students, courses } = require('../data/index.js')
+const { students, courses } = require('../data/index.js')
 const validateStudentId = (req,res, next) => {
-    const id = parseInt(req.params.id)
+    const id = parseInt(req.params.studentId)
     const index = students.findIndex(student => student.id === id)
     if (index < 0) {
         res.status(404).json({
@@ -17,8 +17,9 @@ const validateStudentId = (req,res, next) => {
     next()
 }
 const validateCourseId = (req,res, next) => {
-    const id = parseInt(req.params.id)
+    const id = parseInt(req.params.courseId)
     const index = courses.findIndex(course => course.id === id)
+    console.log(index)
     if (index < 0) {
         res.status(404).json({
         errors: [
