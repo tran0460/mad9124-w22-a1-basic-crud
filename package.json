@@ -8,12 +8,11 @@
   },
   "keywords": [
     "MAD9124",
-    "W21"
+    "W22"
   ],
   "author": "Son Tran",
   "contributors": [
-    "Robert McKenney <mckennr@algonquincollege.com>",
-    "Son Tran <tran0560@algonquinlive.com>"
+    "Robert McKenney <mckennr@algonquincollege.com>"
   ],
   "license": "ISC",
   "private": true,

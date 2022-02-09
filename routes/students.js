@@ -1,10 +1,9 @@
 const express = require('express');
 const { students } = require('../data/index.js')
-const { validateStudentId } = require('../middleware/validateId')
+const { validateStudentId } = require('../middleware/validateStudentId')
 const studentRouter = express.Router();
 
 studentRouter.use('/:studentId', validateStudentId)
-console.log(students)
 
 studentRouter.get("/", (req, res) => {
     res.json({ data: students.map((student) => formatResponseData("students", student)) });
